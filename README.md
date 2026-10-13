@@ -1,15 +1,15 @@
 # NX Vehicle Studio
 
-โปรแกรม Windows 11 x64 สำหรับ OBJ และ YFT Vehicle Scene Editor
+โปรแกรม Windows 11 x64 — v0.3.0 Vehicle Foundation
 
-[ดาวน์โหลดรุ่นล่าสุด](https://github.com/xnatta/NXVehicleStudio-releases/releases/latest)
+[ดาวน์โหลดตัวติดตั้ง](https://github.com/xnatta/NXVehicleStudio-releases/releases/latest)
 
-รุ่น 0.2.0 เพิ่มการนำเข้ารถ YFT Legacy/FiveM version 162 พร้อม _hi.yft และ YTD ในโฟลเดอร์เดียวกัน แสดง Geometry ใน rest pose และข้อมูล Skeleton/Bone/LOD เก็บ Scene เป็น NX Project (.nxv) ได้ ยังไม่มี Rig/Physics editing หรือ YFT Export และไม่รองรับ GTA Enhanced/Asset Escrow
+นำเข้า OBJ/MTL/Texture และ YFT Legacy/FiveM พร้อม _hi.yft/YTD, Viewport/Hierarchy/Transform/Undo/Redo/Project Save-Load/Performance Monitor
 
-รองรับ OBJ/MTL พร้อม Texture, Object Hierarchy, Selection, Orbit/Pan/Zoom, Transform Gizmo, Undo/Redo, Save/Load, Panel Resize และ Performance Monitor
+รุ่น 0.3.0 เพิ่ม Drawable/LOD assignment และ Material Presets (Default, Primary, Secondary, Glass, Emissive) แยกเฉพาะชิ้นที่เลือก พร้อมเก็บ Source YFT/YTD และ Resource Meta/Manifest/YCD ที่พบใน Project Schema 2 เปิดโปรเจกต์ Schema 1 ได้
 
-ติดตั้งสำหรับผู้ใช้ปัจจุบัน เครื่องปลายทางไม่ต้องมี Node, Rust หรือ Blender ใช้ WebView2 Evergreen พร้อม Bootstrapper การติดตั้ง WebView2 ครั้งแรกต้องใช้อินเทอร์เน็ต
+มี Binary YFT Writer ทดลองโครงสร้างจาก OBJ สีล้วน แต่ **ยังไม่มี Skeleton/Physics/Collision/Seat Editor และยังไม่ใช่ Resource รถพร้อมใช้** ยังไม่ยืนยัน Runtime/Shader Fields ครบในเกม อ่านข้อจำกัดใน Release Notes/TEST-REPORT
 
-อัปเดตผ่าน HTTPS และลายเซ็น Tauri พร้อม Recovery ก่อนติดตั้ง ตัวติดตั้งยังไม่มี Authenticode certificate ผลทดสอบและข้อจำกัดแนบในแต่ละ Release
+ติดตั้งสำหรับผู้ใช้ปัจจุบัน ใช้ WebView2 Evergreen มี Bootstrapper ในตัวติดตั้ง เครื่องปลายทางไม่ต้องมี Node/Rust การติดตั้ง WebView2 ครั้งแรกต้องมีอินเทอร์เน็ต ระบบอัปเดต HTTPS + Tauri signature พร้อม Recovery ก่อนติดตั้ง ตัวติดตั้งยังไม่มี Authenticode certificate
 
-Source Repository: [NXVehicleModel](https://github.com/xnatta/NXVehicleModel) (private)
+[Source/แผนพัฒนาสำหรับเจ้าของโปรเจกต์](https://github.com/xnatta/NXVehicleModel) (private)
