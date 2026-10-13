@@ -1,6 +1,8 @@
 # NX Vehicle Studio
 
-Windows 11 x64 Vehicle Editor — v0.5.0
+Windows 11 x64 Vehicle Editor — v0.5.1
+
+Hotfix: แก้ตาราง LOD ที่ใช้ pointer ซ้ำใน YFT และตรวจ fixup/page limit ก่อน Export งานจากรุ่นเก่าต้อง Export ใหม่ ชุดแก้ยังต้องทดสอบใน FiveM จริง
 
 [ดาวน์โหลดรุ่นล่าสุด](https://github.com/xnatta/NXVehicleStudio-releases/releases/latest)
 
