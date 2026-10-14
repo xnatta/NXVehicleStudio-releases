@@ -1,8 +1,6 @@
 # NX Vehicle Studio
 
-Windows 11 x64 Vehicle Editor — v0.5.2
-
-Hotfix: เติม Drawable1 ให้ Physics child ที่ไม่มี geometry เพื่อรับ Skeleton จากตัวถัง และบังคับตรวจ reference นี้ก่อน Export ตามสาเหตุจาก Crash Dump ของ 0.5.1 งานเก่าต้อง Export ใหม่ ชุด 0.5.2 ยังรอทดสอบใน FiveM จริง
+Windows 11 x64 Vehicle Editor — v0.5.3
 
 [ดาวน์โหลดรุ่นล่าสุด](https://github.com/xnatta/NXVehicleStudio-releases/releases/latest)
 
