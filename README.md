@@ -1,12 +1,12 @@
 # NX Vehicle Studio
 
-Windows 11 x64 Vehicle Editor — v0.6.1
+Windows 11 x64 Vehicle Editor — v0.6.2
 
 [ดาวน์โหลดรุ่นล่าสุด](https://github.com/xnatta/NXVehicleStudio-releases/releases/latest)
 
 OBJ → สร้างรถเองโดยไม่ใช้ Template → กำหนดชิ้นส่วน/Primary/Secondary/Glass/Emissive/Extra/Mod Kit → เพิ่ม/ลบ Seats กับ Entry points/Dummy → Rig/Physics/Handling → Export YFT/_hi/YTD/Meta/fxmanifest เป็น Resource ใหม่ พร้อมโหมดแก้รถ YFT เดิม
 
-สร้างจากฐานรถ เก็บ Physics/Collision/Handling/การบินของ Resource ที่คุณนำเข้า ล้างโมเดลและที่นั่งเดิม แล้วใส่ OBJ/ที่นั่งใหม่อย่างอิสระ ไม่ต้องมี Mesh ล้อจริง รุ่นนี้ตั้งชื่อ Spawn ใหม่ตอน Export ได้ แยกจากชื่อ Resource ส่วน Handling/TXD/YCD/Mod Kit ยังคงข้อมูลฐาน ดู BASE-WORKFLOW.md ใน Release
+สร้างจากฐานรถ เก็บ Physics/Collision/Handling/การบินของ Resource ที่คุณนำเข้า ล้างโมเดลและที่นั่งเดิม แล้วใส่ OBJ/ที่นั่งใหม่อย่างอิสระ ไม่ต้องมี Mesh ล้อจริง ตั้งชื่อ Spawn ใหม่ตอน Export ได้ รุ่นนี้เลือก Mesh แล้วตั้ง Primary/Secondary/Default/Glass/Emissive ได้ในหน้าโมเดล รองรับ Material Slots และหลายชิ้นพร้อมกัน ดู BASE-WORKFLOW.md ใน Release
 
 รถพิเศษสร้างใหม่ใช้ฐาน car/bike ยังไม่รองรับ Boat/Aircraft/Weapon authoring ทุกชนิด ไม่มี Ped/YCD ใหม่/Glass shatter/Damage authoring และ Game Acceptance รอผู้ใช้ทดสอบ ไม่อ้างว่าแทน ZModeler ได้ทุกกรณี
 
